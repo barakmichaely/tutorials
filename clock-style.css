@@ -1,0 +1,58 @@
+.fancy-font {
+	font-family: 'Waiting for the Sunrise', crusive;
+	text-align: center;
+	margin-top: 50px;
+	font-size: 40px;
+	letter-spacing: 3px;
+	color: white;
+}
+.clock-circle {
+	margin:auto;
+	min-width: 400px;
+	max-width:400px;
+	min-height: 400px;
+	max-height: 400px;
+	border-radius: 500px;
+	border: 30px solid #2980b9;
+	position: relative;
+	margin-top: 5%;
+	background: #ecf0f1;
+}
+.clock-hand {
+	min-width:3px; max-width:3px;
+	min-height:40%; max-height:40%;
+	left:50%;
+	margin-left:-4.5px;
+	margin-top: 10%;
+	display: block;
+	position: absolute;
+	background: #2980b9;
+	border-radius: 10px;
+}
+#minutehand {
+	background: black;
+	min-height: 37%; max-height: 37%;
+	margin-top: 13%;
+	min-width:5px; max-width:5px;
+}
+#hourhand {
+	background: black;
+	min-height: 29%; max-height: 29%;
+	margin-top: 21%;
+	min-width:7px; max-width:7px;
+}
+#centerdot {
+	position: absolute;
+	left:50%;
+	top:50%;
+	transform: translateX(-50%) translateY(-50%);
+	min-width:12px; max-width:12px;
+	min-height:12px; max-height:12px;
+	background: white;
+	border-radius: 50px;
+	border: 3px solid black;
+}
+
+body {
+	background: #2c3e50;
+}
