@@ -1,3 +1,0 @@
-$('.cloneable').click( function () {
-	
-});
